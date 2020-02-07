@@ -1,0 +1,11 @@
+[Unit]
+Description=Sump Monitor
+
+[Service]
+User=root
+Group=root
+Restart=on-failure
+ExecStart=/home/ibehr/vibration.py
+
+[Install]
+WantedBy=multi-user.target
