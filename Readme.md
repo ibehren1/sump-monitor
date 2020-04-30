@@ -2,7 +2,7 @@
 
 Python code to monitor when your sump pump runs (based on motion/vibration) and log the motion to AWS Cloudwatch.  This gives you a picture over time of how often your sump pump is running and see periods of increased activity that (hopefully) correlate with rainy weather.
 
-![Cloudwatch Graph]().docs/assets/cloudwatch-graph.png)
+![Cloudwatch Graph](.docs/assets/cloudwatch-graph.png)
 
 ## Hardware
 
