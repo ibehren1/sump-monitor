@@ -21,7 +21,7 @@ class Accumulator:
 
 
 # Setup Boto Client
-client = boto3.client('cloudwatch', 'us-east-2')
+client = boto3.client('cloudwatch', 'us-east-1')
 
 # GPIO SETUP
 channel = 17
